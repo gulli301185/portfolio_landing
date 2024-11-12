@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('http://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap')
+
+@layer base{
+    body{
+        @apply font-[Raleway]
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer
+    }
+} */
+
+.banner {
+  background: url(../src/assets/Angelina\ Jolie\ Wallpaper.jpg) no-repeat right
+    center;
+  background-size: cover;
+}
+.about {
+  background: url("https://png.pngtree.com/background/20230426/original/pngtree-young-asian-girl-looking-at-the-camera-smiling-picture-image_2483794.jpg")
+    no-repeat right center;
+  background-size: cover;
+}
+.skill {
+  background: url("https://img.youscreen.ru/wall/14977647129002/14977647129002_1920x1200.jpg")
+    no-repeat right center;
+  background-size: cover;
+}
+.work {
+  background: url('https://www.shutterstock.com/image-photo/young-girl-posing-backlight-on-260nw-1873361707.jpg') no-repeat right center;
+  background-size: cover;
+  
+}
+.contact {
+  background: url('https://www.shutterstock.com/image-photo/beautiful-young-woman-luxury-makeup-260nw-1554462605.jpg') no-repeat right center;
+  background-size: cover;
+  
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color:cadetblue;
+  width: 250px;
+  height: 250px;
+}
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 188, 255, 0.7),
+    hsla(190, 74%, 61%, 0.7)
+  )!important;
+}
