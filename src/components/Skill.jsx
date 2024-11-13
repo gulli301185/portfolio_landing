@@ -9,7 +9,10 @@ import GitHub from "./../assets/381376_github_logo_icon.png";
 
 const Skill = () => {
   return (
-    <div name="skill" className="skill  h-full  w-full text-gray-200 px-8">
+    <div
+      name="skills"
+      className="skill  h-full lg:h-screen  w-full text-gray-200 p-20"
+    >
       <div className="max-w-[1000px] w-full h-full mx-auto p-4 items-center flex flex-col">
         <div>
           <p className=" text-4xl font-bold border-b-4 inline border-teal-600 ">

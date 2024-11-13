@@ -2,8 +2,8 @@ import work2 from "../assets/pngimg.com - iphone_PNG5741.png";
 
 const Work = () => {
   return (
-    <div name="work" className="work w-full h-full  text-teal-500">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full  h-full">
+    <div name="work" className="work w-full  text-teal-500 p-20">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className=" pb-8">
           <h1 className="text-4xl font-bold inline border-b-4  border-teal-600">
             Work
@@ -17,7 +17,7 @@ const Work = () => {
             style={{
               backgroundImage: `url(${"https://t3.ftcdn.net/jpg/08/53/51/04/360_F_853510429_A01zTSwKTkjZe86xgwYGYsvdxRhB3RDA.jpg"})`,
             }}
-            className=" shadow-black shadow-lg rounded-full group container flex justify-center items-center mx-auto content-div duration-500 hover:scale-110"
+            className=" shadow-black shadow-lg rounded-full group container flex justify-center items-center mx-auto content-div  duration-500 hover:scale-110"
           >
             <div className="opacity-0 text-center group-hover:opacity-100">
               <span className="font-bold text-white tracking-wider uppercase">

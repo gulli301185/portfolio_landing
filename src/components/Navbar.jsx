@@ -32,7 +32,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li className="px-4 cursor-pointer uppercase text-sm font-semibold">
-          <Link to="skill" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
